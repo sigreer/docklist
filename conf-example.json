@@ -1,0 +1,14 @@
+{
+    "hosts": ["host1", "host2", "host3"],
+    "ssh_user": "user",
+    "ssh_key_path": "/home/user/.ssh/id_rsa",
+    "fields": {
+        "host": true,
+        "container_name": true,
+        "ports": false,
+        "compose_path": false,
+        "network": false,
+        "status": true,
+        "uptime": false
+    }
+}
